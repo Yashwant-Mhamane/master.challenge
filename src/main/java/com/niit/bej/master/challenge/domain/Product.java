@@ -10,6 +10,13 @@ public class Product {
     private String productName;
     private String manufacturer;
 
+    public Product(long productId, String productName, String manufacturer) {
+        this.productId = productId;
+        this.productName = productName;
+        this.manufacturer = manufacturer;
+    }
 
+    public Product() {
+    }
 
 }
