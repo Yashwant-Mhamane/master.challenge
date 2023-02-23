@@ -5,7 +5,7 @@ import jakarta.persistence.Id;
 
 @Entity
 public class Product {
-
+    @Id
     private long productId;
     private String productName;
     private String manufacturer;
